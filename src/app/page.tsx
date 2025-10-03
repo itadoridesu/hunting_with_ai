@@ -6,7 +6,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { Microscope, Telescope } from 'lucide-react';
-import { useEffect, useState } from 'react';
 
 const keyTerms = [
   { term: "Needle in a Haystack Problem", definition: "Refers to the challenge of finding a rare, significant signal (like an exoplanet) within a vast amount of noisy data." },
@@ -21,27 +20,9 @@ const keyTerms = [
 
 export default function Home() {
   const logoImage = PlaceHolderImages.find(img => img.id === 'astro-boys-logo');
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
-    <div className="relative">
-       <div
-        className="absolute top-0 left-0 w-full h-full -z-10"
-        style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2071&auto=format&fit=crop')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-          transform: `translateY(${offsetY * 0.1}px)`
-        }}
-      />
-      <div className="container mx-auto px-4 py-12 md:py-16 bg-background/50">
+    <div className="container mx-auto px-4 py-12 md:py-16">
 
         {/* Hero Section */}
         <section className="text-center">
@@ -87,7 +68,7 @@ export default function Home() {
               The Cosmic Challenge
             </h2>
           </div>
-          <Card className="mt-8 bg-card/50 backdrop-blur-sm">
+          <Card className="mt-8 bg-card/80">
               <CardContent className="p-8 text-lg text-foreground/90 space-y-4">
                   <p>
                       Space missions like Kepler, K2, and TESS generate an overwhelming amount of light curve data from distant stars. Identifying potential exoplanets from this data is like finding a needle in a cosmic haystack.
@@ -126,7 +107,6 @@ export default function Home() {
               </div>
           </TooltipProvider>
         </section>
-      </div>
     </div>
   );
 }
