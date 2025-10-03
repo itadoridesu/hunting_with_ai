@@ -14,7 +14,6 @@ const navLinks = [
   { href: '/upload', label: 'Upload' },
   { href: '/simulator', label: 'Simulator' },
   { href: '/explanation', label: 'Explanation' },
-  { href: '/about', label: 'About' },
 ];
 
 export function Header() {
