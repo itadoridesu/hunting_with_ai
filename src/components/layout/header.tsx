@@ -12,8 +12,9 @@ import { useState } from 'react';
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/upload', label: 'Upload' },
-  { href: '/explanation', label: 'Explanation' },
   { href: '/simulator', label: 'Simulator' },
+  { href: '/explanation', label: 'Explanation' },
+  { href: '/about', label: 'About' },
 ];
 
 export function Header() {
