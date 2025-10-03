@@ -25,7 +25,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Orbit className="h-6 w-6 text-accent ml-2" />
+          <Orbit className="h-6 w-6 text-accent ml-4" />
           <span className="hidden font-bold sm:inline-block font-headline">
             AI Exoplanet Explorer
           </span>
