@@ -1,46 +1,64 @@
 {
   "placeholderImages": [
     {
-      "id": "team-eyad",
-      "description": "Photo of Eyad Oumar",
-      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "cropped-circle",
+      "description": "Cropped circular image",
+      "imageUrl": "/assets/cropped_circle_image.png",
+      "imageHint": "A circle-shaped image, possibly a logo"
     },
     {
-      "id": "team-adem",
-      "description": "Photo of Adem Hamizi",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "kepler11-transits",
+      "description": "Kepler-11 transit observation",
+      "imageUrl": "/assets/Kepler11_transits.jpg",
+      "imageHint": "Transit light curve from the Kepler telescope"
     },
     {
-      "id": "team-abdulrahman",
-      "description": "Photo of Abdulrahman Zaatari",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "space-apps-logo",
+      "description": "NASA Space Apps logo (white)",
+      "imageUrl": "/assets/Space_Apps_Logo_White.png",
+      "imageHint": "Hackathon logo"
     },
     {
-      "id": "team-karim",
-      "description": "Photo of Karim Kichly",
-      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "team-logo",
+      "description": "Team logo image",
+      "imageUrl": "/assets/team_logo.jpeg",
+      "imageHint": "Our project team's identity logo"
     },
     {
-      "id": "team-ayman",
-      "description": "Photo of Ayman Kacan",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "drag-csv",
+      "description": "Drag and drop CSV file illustration",
+      "imageUrl": "/assets/drag_csv.png",
+      "imageHint": "Visual guide for uploading CSV files"
     },
     {
-      "id": "team-mohammed",
-      "description": "Photo of Mohammed Dayeh",
-      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk0NzE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "id": "image-data",
+      "description": "Image data visualization",
+      "imageUrl": "/assets/image_data.png",
+      "imageHint": "Example of image-based data analysis"
     },
     {
-      "id": "astro-boys-logo",
-      "description": "Logo for Astro Boys team",
-      "imageUrl": "https://i.imgur.com/gfaF43q.jpeg",
-      "imageHint": "cartoon astro boy"
+      "id": "prediction-score-image",
+      "description": "Prediction score for image data",
+      "imageUrl": "/assets/prediction_score_image_data.png",
+      "imageHint": "AI confidence score for image analysis"
+    },
+    {
+      "id": "prediction-score-tabular",
+      "description": "Prediction score for tabular data",
+      "imageUrl": "/assets/prediction_score_tabular_data.png",
+      "imageHint": "AI confidence score for tabular data analysis"
+    },
+    {
+      "id": "tabular-data",
+      "description": "Tabular data visualization",
+      "imageUrl": "/assets/tabular_data.png",
+      "imageHint": "Example of spreadsheet-like data structure"
+    },
+    {
+      "id": "upload-csv",
+      "description": "CSV file upload interface",
+      "imageUrl": "/assets/upload_csv.png",
+      "imageHint": "User interface for uploading CSV files"
     }
   ]
 }

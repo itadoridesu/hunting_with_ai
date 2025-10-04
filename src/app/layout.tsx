@@ -3,6 +3,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Header } from '@/components/layout/header';
 import { Toaster } from '@/components/ui/toaster';
+import AudioPlayer from '@/components/audio-player'; // Add this import
 
 export const metadata: Metadata = {
   title: 'AI Exoplanet Explorer',
@@ -28,6 +29,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
         </div>
         <Toaster />
+        <AudioPlayer /> {/* Add this line */}
       </body>
     </html>
   );
