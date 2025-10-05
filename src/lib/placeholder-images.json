@@ -59,6 +59,12 @@
       "description": "CSV file upload interface",
       "imageUrl": "/assets/upload_csv.png",
       "imageHint": "User interface for uploading CSV files"
+    },
+    {
+      "id": "tm-logo-square",
+      "description": "CSV file upload interface",
+      "imageUrl": "/assets/team_logo_square.jpeg",
+      "imageHint": "User interface for uploading CSV files"
     }
   ]
 }

@@ -41,13 +41,46 @@ export default function LearnPage() {
 
       {/* Page content */}
       <div className="container mx-auto px-4 py-12 relative z-10">
-        <div className="max-w-4xl mx-auto space-y-24">
+        <div className="max-w-6xl mx-auto space-y-24">
+
+          {/* NASA Exoplanet Visualization Section - NEW */}
+          <section className="space-y-6">
+            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline text-center mb-4">
+              Explore Exoplanet TOI-969_b
+            </h1>
+            <div className="bg-background/80 backdrop-blur-sm rounded-xl p-6 shadow-lg">
+              <div className="space-y-4">
+                <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden shadow-2xl"> {/* 16:9 aspect ratio */}
+                  <iframe
+                    src="https://eyes.nasa.gov/apps/exo/#/planet/TOI-969_b"
+                    title="TOI-969_b Exoplanet Visualization"
+                    className="absolute top-0 left-0 w-full h-full border-0"
+                    allowFullScreen
+                  />
+                </div>
+                <div className="text-center pt-4">
+                  <a 
+                    href="https://eyes.nasa.gov/apps/exo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 font-semibold hover:scale-105 shadow-lg"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Explore Full NASA Visualization Tool
+                  </a>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Dive deeper into NASA's exoplanet discoveries and visualizations
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* Fun Facts Section */}
           <section>
-            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline text-center mb-12">
               Cosmic Curiosities
-            </h1>
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {displayedFacts.map((item, index) => (
                 <Card key={index} className="flex flex-col transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-accent/20 bg-background/80 backdrop-blur-sm">
